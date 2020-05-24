@@ -1,0 +1,36 @@
+h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.flex-cont {
+  /* margin: 20px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box {
+  margin: 5px;
+  padding: 5px;
+  flex: 0 1 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin: 10px;
+}
+
+.mynavbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.mynavitem{
+  margin: 5px;
+  padding: 5px;
+  flex: 0 1 auto;
+}
